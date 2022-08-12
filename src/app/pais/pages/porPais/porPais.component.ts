@@ -5,4 +5,11 @@ import { Component } from "@angular/core";
   selector:"app-por-pais",
   templateUrl:"porPais.component.html"
 })
-export class PorPaisComponent{};
+export class PorPaisComponent{
+
+  termino: string = "";
+
+  buscar(){
+    console.log(this.termino);
+  }
+};
