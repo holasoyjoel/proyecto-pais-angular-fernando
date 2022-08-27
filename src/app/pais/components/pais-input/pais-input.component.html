@@ -2,7 +2,7 @@
   <input type="text"
           name="termino"
           class="form-control"
-          placeholder="Buscar . . ."
+          [placeholder]="placeholder"
           autocomplete="off"
           [(ngModel)]="termino"
           (input)="teclaPresionada()">
